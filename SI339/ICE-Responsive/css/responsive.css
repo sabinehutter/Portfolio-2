@@ -1,0 +1,81 @@
+@media only screen and (min-width: 650px){
+
+	.photo-cell{
+		float: left;
+		width: 60%;
+	}
+
+	.top-nav{
+		text-align:center;
+	}
+	.top-nav ul li{
+		display: inline-block;
+		position: static;
+		text-align: center;
+	}
+	.main-content-home{
+		padding:30px;
+	}
+	.resp-img {width: 100%;}
+	.Red_Horizontal_Rectangle, .Black_Horizontal_Rectangle, .Light_Blue_Horizontal_Rectangle, .Green_Horizontal_Rectangle, .Maroon_Horizontal_Rectangle{
+	display: inline-block;
+	width: 100%;
+	}
+	.Yellow_Vertical_Rectangle, .Bluish-purple_Vertical_Rectangle{
+		display: inline-block;
+		width: 48.5%;
+		
+	}
+	.home-flag{
+		margin: 0 auto;
+
+/*		position: fixed;
+		top: 0 auto;
+		z-index:100;*/
+	}
+	}
+
+/*@media only screen and (min-width: 850px){
+	.top-nav ul li{
+	display: inline-block;
+	}
+}*/
+
+
+
+
+@media only screen and (min-width: 1000px){
+	.logo{
+		text-align: left;
+		position: absolute;
+	}
+	.top-nav ul{
+	text-align: right;
+	height:63px;
+	}
+	.top-nav ul li{
+	display: inline-block;
+	}
+	.photo-grid div { 
+		height: 300px;
+		margin: 1%;
+		margin-bottom: 30px ;
+	}
+	.resp-img {width: 100%;}
+
+	.Red_Horizontal_Rectangle, .Black_Horizontal_Rectangle, .Light_Blue_Horizontal_Rectangle, .Green_Horizontal_Rectangle, .Maroon_Horizontal_Rectangle{
+		display: inline-block;
+		width: 47.5%;
+	}
+	section.home-flag{
+	top: 0;
+	}
+	.Yellow_Vertical_Rectangle, .Bluish-purple_Vertical_Rectangle{
+		display: inline-block;
+		width: 22.5%;
+		
+	}
+	section.crafts{
+	display: flex;
+	}
+	}
