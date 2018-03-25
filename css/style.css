@@ -1,0 +1,52 @@
+header{
+	background: black;
+	text-align: center;
+	color: white;
+}
+nav{
+	background: grey;
+}
+nav li{
+	display: inline-block;
+	color: white;
+	text-align: center;
+}
+
+nav li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	background-color: black;
+	text-align: center;
+	padding: 14px 16px;
+
+}
+div h1{
+	font-size: 40px;
+}
+aside{
+	position: fixed;
+	padding: 0px;
+	right: 0px;
+}
+#content h1{
+	padding: 0;
+}
+#content li{
+	text-align: center;
+	display: inline-block;
+
+}
+#content li span{
+	border-radius: 50%;
+ 	border: 1px dashed black;
+ 	padding: 5px 10px;
+ 	margin-right: 10px;
+ 	background:#fff
+ 	line-height:20px ;
+
+}
+footer{
+	background: #ADD8E6y;
+}
+ 
