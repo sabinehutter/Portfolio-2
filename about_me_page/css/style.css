@@ -33,29 +33,3 @@ nav li a{
 div h1{
 	font-size: 40px;
 }
-aside{
-	position: fixed;
-	padding: 0px;
-	right: 0px;
-}
-#content h1{
-	padding: 0;
-}
-#content li{
-	text-align: center;
-	display: inline-block;
-
-}
-#content li span{
-	border-radius: 50%;
- 	border: 1px dashed black;
- 	padding: 5px 10px;
- 	margin-right: 10px;
- 	background:#fff
- 	line-height:20px ;
-
-}
-footer{
-	background: #ADD8E6y;
-}
- 
