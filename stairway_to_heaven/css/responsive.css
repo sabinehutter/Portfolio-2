@@ -1,0 +1,58 @@
+@media only screen and (min-width: 700px){
+	.topnav{
+		background: black;
+	}
+	.topnav ul{
+		background: black;
+		display: inline-block;
+		position: static;
+		text-align: center;
+	}
+	nav#topnav.topnav {
+		display: inline-block;
+		text-align: center}
+	.topnav ul li a{
+		font-size: 20px;
+	}
+
+}
+
+
+
+@media only screen and (min-width: 1000px){
+	.topnav{
+/*		text-align: left;
+		position: absolute;*/
+		background: black;
+		display: inline-block;
+	}
+	.topnav li{
+	text-align: right;
+	height:63px;
+	}
+	.topnav ul li{
+	display: inline-block;
+	}
+
+	.topnav ul li a{
+		font-size: 25px;
+	}
+
+@media only screen and (min-width: 1500px){
+	.topnav{
+		text-align: right;
+		position: absolute;
+		background: black;
+		display: inline-block;
+	}
+	.topnav ul{
+	float: right;
+	height:63px;
+	}
+	.topnav ul li{
+	display: inline-block;
+	}
+	.topnav ul li a{
+		font-size: 35px;
+		border: white;
+	}
