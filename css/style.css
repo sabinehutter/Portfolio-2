@@ -61,14 +61,24 @@ aside{
 }*/
 
 #content h1{
-	padding: 0;
+	position: absolute;
+	font-family: 'Cinzel Decorative', cursive;
+	right: 2REM;
+	font-size: 50px;
 }
-#content li{
+
+#content p{
+	position: absolute;
+	font-family: 'Cinzel Decorative', cursive;
+	right: 2EM;
+}
+
+/*#content li{
 	text-align: center;
 	display: inline-block;
 
-}
-#content li span{
+}*/
+/*#content li span{
 	border-radius: 50%;
  	border: 1px dashed black;
  	padding: 5px 10px;
@@ -76,11 +86,11 @@ aside{
  	background:#fff
  	line-height:20px ;
 
-}
+}*/
 #content img{
 	position: absolute;
-    left: 50px;
-    width: 300px;
+    left: 40px;
+    width: 400px;
     border: 3px solid rgb(0,0,0);
     padding: 10px;
 }

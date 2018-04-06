@@ -1,9 +1,9 @@
 @media only screen and (min-width: 700px){
 	.topnav{
-		background-color: rgb(25,25,112);
+		background-color: red;
 	}
 	.topnav ul{
-		background-color: 	rgb(25,25,112);
+		background-color:red;
 		display: inline-block;
 		position: static;
 		text-align: center;
@@ -15,7 +15,7 @@
 		font-size: 20px;
 	}
 	ul{
-		background-color: 	rgb(25,25,112);
+		background-color:red;
 	}
 
 }
