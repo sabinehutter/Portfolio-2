@@ -59,9 +59,20 @@ div h1{
 #aboutcontent h1{
 	font-family: 'Cinzel Decorative', cursive;
 	text-align: center;
-	font-family: 'IBM Plex Mono', monospace;
+	text-decoration: underline;
 	word-spacing: 0.10em;
 	letter-spacing: 0.35em;
+}
+
+div#aboutcontent{
+	background-color: rgb(211,211,211);
+	padding: 10px;
+}
+
+#aboutcontent p{
+	font-family: 'Julius Sans One', cursive;
+	font-weight: bolder;
+	text-align: center;
 }
 
 aside{
