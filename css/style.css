@@ -389,9 +389,6 @@ div.contacting1 a{
 
 }
 
-div.email h1{
-	ont-family: 'Cinzel Decorative', cursive;}
-
 body form {
 	text-align: center;
 	padding-top: 20px;
@@ -399,7 +396,9 @@ body form {
 }
 
 div.photo_form h1{
-	text-align: center;
+	text-align: right;
+	color: white;
+	font-family: 'Cinzel Decorative', cursive;
 	background-color: rgb(192,192,192);
 	padding-bottom: 0;
 }
