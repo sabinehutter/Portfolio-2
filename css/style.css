@@ -359,20 +359,6 @@ nav#topnav.topnav{
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 60%;}
 
-.section1 h1{
-	text-align: right;
-	font-family: 'Cinzel Decorative', cursive;
-	background: rgb(169,169,169);
-	width: 100%;
-	color: white;
-	height: 100%;
-	padding-top: 100px;
-	top: 0;
-}
-.section1 h1 a{
-	right: 0px;
-}
-
 div.contacting1{
 display: table;
 background: rgb(105,105,105);
