@@ -195,13 +195,13 @@ nav#topnav.topnav{
 }
 
 .grid-item2 h1{
-	font-size: 30px;
+	font-size: 20px;
 	top: 0;
 	font-family: 'Cinzel Decorative', cursive;
 }
 
 .grid-item2 h2{
-	font-size: 20px;
+	font-size: 10px;
 	top: 0;
 	font-family: 'Archivo Black', sans-serif;
 	color: black;
@@ -221,13 +221,13 @@ nav#topnav.topnav{
 }
 
 .grid-item4 h1{
-	font-size: 30px;
+	font-size: 20px;
 	top: 0;
 	font-family: 'Cinzel Decorative', cursive;
 }
 
 .grid-item4 h2{
-	font-size: 20px;
+	font-size: 10px;
 	top: 0;
 	font-family: 'Archivo Black', sans-serif;
 	color: black;
@@ -245,13 +245,13 @@ nav#topnav.topnav{
 }
 
 .grid-item6 h1{
-	font-size: 30px;
+	font-size: 20px;
 	top: 0;
 	font-family: 'Cinzel Decorative', cursive;
 }
 
 .grid-item6 h2{
-	font-size: 20px;
+	font-size: 10px;
 	top: 0;
 	font-family: 'Archivo Black', sans-serif;
 	color: black;
@@ -270,13 +270,13 @@ nav#topnav.topnav{
 }
 
 .grid-item8 h1{
-	font-size: 30px;
+	font-size: 20px;
 	top: 0;
 	font-family: 'Cinzel Decorative', cursive;
 }
 
 .grid-item8 h2{
-	font-size: 20px;
+	font-size: 10px;
 	top: 0;
 	font-family: 'Archivo Black', sans-serif;
 	color: black;
@@ -295,13 +295,13 @@ nav#topnav.topnav{
 }
 
 .grid-item10 h1{
-	font-size: 30px;
+	font-size: 20px;
 	top: 0;
 	font-family: 'Cinzel Decorative', cursive;
 }
 
 .grid-item10 h2{
-	font-size: 20px;
+	font-size: 10px;
 	top: 0;
 	font-family: 'Archivo Black', sans-serif;
 	color: black;
@@ -319,13 +319,13 @@ nav#topnav.topnav{
 }
 
 .grid-item12 h1{
-	font-size: 30px;
+	font-size: 20px;
 	top: 0;
 	font-family: 'Cinzel Decorative', cursive;
 }
 
 .grid-item12 h2{
-	font-size: 20px;
+	font-size: 10px;
 	top: 0;
 	font-family: 'Archivo Black', sans-serif;
 	color: black;
@@ -343,13 +343,13 @@ nav#topnav.topnav{
 }
 
 .grid-item14 h1{
-	font-size: 30px;
+	font-size: 20px;
 	top: 0;
 	font-family: 'Cinzel Decorative', cursive;
 }
 
 .grid-item14 h2{
-	font-size: 20px;
+	font-size: 10px;
 	top: 0;
 	font-family: 'Archivo Black', sans-serif;
 	color: black;
@@ -358,3 +358,52 @@ nav#topnav.topnav{
 .grid-item14 p{
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 60%;}
+
+.section1 h1{
+	text-align: right;
+	font-family: 'Cinzel Decorative', cursive;
+	background: rgb(169,169,169);
+	width: 100%;
+	color: white;
+	height: 100%;
+	padding-top: 100px;
+	top: 0;
+}
+.section1 h1 a{
+	right: 0px;
+}
+
+div.contacting1{
+display: table;
+background: rgb(105,105,105);
+top: 0;
+text-align: center;
+color: white;
+word-spacing: 30px;
+width: 100%;
+padding-bottom: 20px;
+}
+
+div.contacting1 a{
+	color: white;
+
+}
+
+div.email h1{
+	ont-family: 'Cinzel Decorative', cursive;}
+
+body form {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 80px;
+}
+
+div.photo_form h1{
+	text-align: center;
+	background-color: rgb(192,192,192);
+	padding-bottom: 0;
+}
+
+form{
+	background-color: rgb(192,192,192);
+}
