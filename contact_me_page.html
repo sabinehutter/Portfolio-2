@@ -56,10 +56,11 @@
 
         </div>
 
-      <div class = "photo_form">
-        <h1>Leave Me a Message!</h1>
-      </div>
 
+        <button onclick="contactmessage()">Contact Me</button>
+        <button onclick="leaveinfo()">Leave Your Contact Info</button>
+
+      <div class = "photo_form">
       <form>
         <label for="textarea1">Text box for feedback</label>
           <textarea name= "message" rows = "10" cols="30" id= "textarea1" placeholder="Type your message, questions, feedback,.."></textarea>
@@ -70,6 +71,30 @@
 
       <input type= "submit" value= "Submit">
   </form>
+  </div>
+
+
+<script>
+function contactmessage() {
+    var x = document.getElementById("textarea1");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
+
+<script>
+function leaveinfo() {
+    var y = document.getElementById("textarea2");
+    if (y.style.display === "none") {
+        y.style.display = "block";
+    } else {
+        y.style.display = "none";
+    }
+}
+</script>
 
       <footer style= "position: fixed; bottom: 0; left: 30%;margin-left:auto;
     margin-right:auto;
