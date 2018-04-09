@@ -161,7 +161,7 @@ nav#topnav.topnav{
 
 .grid-container{
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: 40% 60%;
 	padding: 30px;
 }
 
@@ -183,20 +183,21 @@ nav#topnav.topnav{
 	font-family: 'Julius Sans One', sans-serif;
 }
 
+.grid-item2:hover, .grid-item4:hover, .grid-item6:hover, .grid-item8:hover, .grid-item10:hover, .grid-item12:hover, .grid-item14:hover{
+	background: #FFC0CB;
+}
+
 .grid-item1{
 	background-image: url("../img/flavin_fun_project.png");
-	background-size:75% 100%;
+	background-size:75% 80%;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .grid-item2 h1{
 	font-size: 30px;
+	top: 0;
 	font-family: 'Cinzel Decorative', cursive;
-}
-
-.grid-item2:hover {
-	background: #FFC0CB;
 }
 
 .grid-item2 h2{
@@ -208,50 +209,152 @@ nav#topnav.topnav{
 
 .grid-item2 p{
 	font-family: 'Julius Sans One', sans-serif;
-	font-size: 12px;
+	font-size: 60%;
 }
 
-.grid-item1 a:hover {
-    background-color: #FFC0CB;
-    color: white;
-}
 
 .grid-item3{
 	background-image: url("../img/city_of_aa.png");
-	background-size:45% 90%;
+	background-size:55% 60%;
 	background-position: center;
 	background-repeat: no-repeat;
+}
+
+.grid-item4 h1{
+	font-size: 30px;
+	top: 0;
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+.grid-item4 h2{
+	font-size: 20px;
+	top: 0;
+	font-family: 'Archivo Black', sans-serif;
+	color: black;
+}
+
+.grid-item4 p{
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 60%;
 }
 .grid-item5{
 	background-image: url("../img/nyt_imdb.png");
-	background-size:85% 100%;
+	background-size:60% 70%;
 	background-position: center;
 	background-repeat: no-repeat;
 }
+
+.grid-item6 h1{
+	font-size: 30px;
+	top: 0;
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+.grid-item6 h2{
+	font-size: 20px;
+	top: 0;
+	font-family: 'Archivo Black', sans-serif;
+	color: black;
+}
+
+.grid-item6 p{
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 60%;
+}
+
 .grid-item7{
 	background-image: url("../img/google_usda.png");
-	background-size:70% 100%;
+	background-size:70% 80%;
 	background-position: center;
 	background-repeat: no-repeat;
+}
+
+.grid-item8 h1{
+	font-size: 30px;
+	top: 0;
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+.grid-item8 h2{
+	font-size: 20px;
+	top: 0;
+	font-family: 'Archivo Black', sans-serif;
+	color: black;
+}
+
+.grid-item8 p{
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 60%;
 }
 
 .grid-item9{
 	background-image: url("../img/s2h.png");
-	background-size:80% 80%;
+	background-size:80% 60%;
 	background-position: center;
 	background-repeat: no-repeat;
 }
+
+.grid-item10 h1{
+	font-size: 30px;
+	top: 0;
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+.grid-item10 h2{
+	font-size: 20px;
+	top: 0;
+	font-family: 'Archivo Black', sans-serif;
+	color: black;
+}
+
+.grid-item10 p{
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 60%;}
 
 .grid-item11{
 	background-image: url("../img/experiential_marketing.jpg");
-	background-size:60% 80%;
+	background-size:60% 50%;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
+.grid-item12 h1{
+	font-size: 30px;
+	top: 0;
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+.grid-item12 h2{
+	font-size: 20px;
+	top: 0;
+	font-family: 'Archivo Black', sans-serif;
+	color: black;
+}
+
+.grid-item12 p{
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 60%;}
+
 .grid-item13{
 	background-image: url("../img/insta_community.jpg");
-	background-size:70% 60%;
+	background-size:70% 40%;
 	background-position: center;
 	background-repeat: no-repeat;
 }
+
+.grid-item14 h1{
+	font-size: 30px;
+	top: 0;
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+.grid-item14 h2{
+	font-size: 20px;
+	top: 0;
+	font-family: 'Archivo Black', sans-serif;
+	color: black;
+}
+
+.grid-item14 p{
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 60%;}
