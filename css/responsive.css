@@ -41,13 +41,13 @@
 @media only screen and (min-width: 1500px){
 	.topnav{
 		text-align: right;
-		position: absolute;
+/*		position: absolute;*/
 		background: black;
 		display: inline-block;
 	}
 	.topnav ul{
 	float: right;
-	height:63px;
+	height:70px;
 	}
 	.topnav ul li{
 	display: inline-block;
