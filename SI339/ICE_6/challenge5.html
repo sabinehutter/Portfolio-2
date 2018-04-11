@@ -36,10 +36,9 @@
 	}
 	</style>
 
-	<script type="text/javascript">
-	// I used Two functions here.  Starter idea at: 
-	// https://codepen.io/ColleenEMc/pen/XmZzWw
-	</script>
+<script type="text/javascript">
+</script>
+
 </head>
 
 <body>
@@ -64,6 +63,30 @@
 		<img class = "preview" tabindex = "1" 
 			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg" 
 			alt = "Young Puppy";>
+
+		<script type="text/javascript">
+
+			var srcImages = document.getElementsByTagName("img");
+			var mainImage = document.getElementById("image");
+		for (var i = 0; i < srcImages.length; i++) {
+		var item = srcImages[i];
+			item.onmouseenter = function() {
+			console.log("Mouse Entered!")
+			var altText = this.getAttribute("alt")
+			var src = this.getAttribute("src")
+			mainImage.style.backgroundImage = "url(" + src + ")"
+			mainImage.innerHTML = altText
+	};
+		item.onmouseleave = function() {
+			mainImage.innerText = ("Hover over an image below.")
+			console.log("mouse left!")
+			mainImage.style.backgroundImage = ""
+			mainImage.innerHTML = "Hover over an image below."
+		};
+	}
+	// I used Two functions here.  Starter idea at: 
+	// https://codepen.io/ColleenEMc/pen/XmZzWw
+	</script>
 </body>
 </html>
 	
