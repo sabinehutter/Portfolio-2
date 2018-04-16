@@ -2,7 +2,7 @@ body{
 	background-image: url("../images/sun-pattern.png")
 }
 
-#photo1{
+/*#photo1{
 	border: 5px solid blue;
 	padding: 5%;
 
@@ -11,7 +11,7 @@ body{
 	border: 5px solid blue;
 	padding: 5%;
 
-}
+}*/
 
 
 /*div.img{
@@ -21,6 +21,16 @@ body{
 .column{
 	float: left;
 	width: 50%;
+
+}
+#photo1{
+	border: 5px solid blue;
+	padding: 5%;
+
+}
+#photo2{
+	border: 5px solid blue;
+	padding: 5%;
 
 }
 .row::after {
