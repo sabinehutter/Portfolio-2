@@ -1,15 +1,15 @@
 body{
-	background-color: green;
+	background-image: url("img/june.jpg");
 }
 
-img{
+.photo1{
 	height: 25%;
 	width: 25%;
 	border: 5px solid purple;
 	display: inline;
 }
 
-.image{
+.photo2{
 	height: 25%;
 	width: 25%;
 	border: 5px solid purple;
