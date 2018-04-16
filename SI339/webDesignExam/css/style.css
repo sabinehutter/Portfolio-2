@@ -1,0 +1,30 @@
+body{
+	background-image: url("../images/sun-pattern.PNG")
+}
+
+#photo1{
+	border: 5px solid blue;
+/*	padding: 5%;*/
+
+}
+#photo2{
+	border: 5px solid blue;
+/*	padding: 5%;*/
+
+}
+
+
+/*div.img{
+	display: inline;
+}*/
+
+.column{
+	float: left;
+	width: 50%;
+
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}

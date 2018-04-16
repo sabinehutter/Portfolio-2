@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sabine's Exam</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<h1>Sabine Hutter</h1>
+
+		<div class="row">
+ 			<div class="column">
+    			<img id="photo1" src="images/examPic.JPG" alt="Selfie of Colleen Van Lent with friends" style="width:100%">
+  			</div>
+  			<div class="column">
+    			<img id="photo2" src="images/UMSI-logo.jpg" alt="University of Michigan School of Info Logo" style="width:100%">
+  			</div>
+		</div>
+
+		<!-- <img id="photo1" src="images/examPic.JPG" width="50%" alt="Selfie of Colleen Van Lent with friends">
+
+		<img id ="photo2" src="images/UMSI-logo.jpg" width= 50% alt="University of Michigan School of Info Logo"> -->
+
+	<button onclick="remove_image()">Hide Image</button>
+	<button onclick="bring_back()">Show Image</button>
+
+	<script type="text/javascript">
+function remove_image(){ 
+document.getElementById("photo1").style.display = "none";
+document.getElementById("photo2").style.textAlign = "center";
+}
+</script>
+
+<script type="text/javascript">
+	function bring_back(){
+		document.getElementById("photo1").style.display = "block"
+	}
+</script>
+
+</body>
+</html>
